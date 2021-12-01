@@ -21,17 +21,9 @@ EXEMPLE 1 :
   - 2°) en utilisant la boucle FOR
 - Écrivez la table d'évolution des variables
 */
-
-// 1°) sans boucle
-
-
-// 2°) avec boucle FOR
-
-
-
-
-
-
+for (let iNombre = 1 ; iNombre <= 10 ; iNombre++ ) {
+    console.log(iNombre);
+}
 
 /*
 N.B. TABLE D'ÉVOLUTION DES VARIABLES :

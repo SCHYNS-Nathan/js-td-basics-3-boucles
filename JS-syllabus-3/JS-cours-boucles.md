@@ -1,3 +1,4 @@
+TEST PUSH
 # JAVASCRIPT
 
 Notes de cours provisoires

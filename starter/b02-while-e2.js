@@ -23,4 +23,11 @@ EXEMPLE 2 :
   - C'est le tour numéro 10
   - Le manège s'arrête
 */
+let iTour = 1;
+console.log("Le manège démarre !");
+while (iTour <= 10) {
+    console.log(`C'est le tour n°${iTour}.`);
+    iTour++;
+}
+console.log("Le manège s'arrête...");
 

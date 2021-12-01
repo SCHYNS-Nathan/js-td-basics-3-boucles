@@ -14,3 +14,12 @@
 4. Affichez ensuite le résultat avec, pour chacune des tables, un titre
 	"Voici les … premières valeurs de la table de multiplication par …" 
 */
+const iTableMulti = parseInt(prompt("Je peux afficher des tables de multiplication. Dites-moi à laquelle vous souhaitez que je m'arrête."));
+const iValeurParTable = parseInt(prompt("Combien de valeurs voulez-vous par table ?"));
+alert(`Très bien, je vais donc vous afficher les ${iValeurParTable} premières valeurs des ${iTableMulti} premères tables de multiplication.`);
+for (let iNbrTable = 1 ; iNbrTable <= iTableMulti ; iNbrTable++) {
+    console.log(`Voici les ${iValeurParTable} premières valeurs de la table de ${iNbrTable} :`);
+    for (let iMultiplication = 1 ; iMultiplication <= iValeurParTable ; iMultiplication++) {
+        console.log(iMultiplication * iNbrTable);
+    }
+}

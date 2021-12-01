@@ -19,8 +19,11 @@
 */
 
 // code de base sans le bonus
-
-
+let sLettreUti = prompt("Jouons à un jeu ! Tapez une lettre. (X pour sortir)");
+while (sLettreUti !== "X") {
+    sLettreUti = prompt("Tapez une lettre ! (X pour sortir)");
+    console.log(sLettreUti);
+}
 
 
 

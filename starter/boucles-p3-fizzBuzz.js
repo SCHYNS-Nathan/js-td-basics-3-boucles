@@ -15,3 +15,17 @@ RAPPELS - AIDES :
 - TIP : Cet exercice constitue un test d'embauche classique qui élimine un nombre significatif de candidats.
 	Accrochez-vous pour le réussir !
 */
+for (let iAllNumber = 0 ; iAllNumber <= 100 ; iAllNumber++) {
+    if (iAllNumber % 3 === 0 && iAllNumber % 5 === 0) {
+        console.log(`${iAllNumber} (FizzBuzz)`);
+    }
+    else if (iAllNumber % 3 === 0) {
+        console.log(`${iAllNumber} (Fizz)`);
+    }
+    else if (iAllNumber % 5 === 0) {
+        console.log(`${iAllNumber} (Buzz)`);
+    }
+    else {
+        console.log(iAllNumber);
+    }
+}

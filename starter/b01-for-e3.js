@@ -18,6 +18,11 @@
 EXEMPLE 3 : 
 - Affichez les nombres pairs entre 0 et 20
 */
+console.log("Voici les nombres pairs entre 0 et 20 :")
+for (let iNombrePair = 0 ; iNombrePair <= 20 ; iNombrePair += 2) {
+    console.log(iNombrePair);
+}
+console.log("C'est tout !")
 
 
 

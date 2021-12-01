@@ -13,6 +13,11 @@ N.B. Faites-le de deux manières différentes :
 */
 
 // avec FOR
-
+let iTableMulti = parseInt(prompt("Choisissez une table de multiplication à afficher :"));
+let iValeurTable = parseInt(prompt(`Combien de valeurs voulez-vous pour la table de ${iTableMulti} ?`));
+console.log(`Voici les ${iValeurTable} premières valeurs de la table de multiplication par ${iTableMulti} :`);
+for (let iMultiplication = 1 ; iMultiplication <= iValeurTable ; iMultiplication++) {
+    console.log(iMultiplication*iTableMulti);
+}
 
 // avec WHILE

@@ -17,4 +17,7 @@
 /* EXEMPLE 5 : Boucler à l'envers
 - Affichez dans la console : "3, 2, 1, partez !"
 */
-
+for (let iDecompte = 3 ; iDecompte >= 1 ; iDecompte--) {
+    console.log(iDecompte);
+}
+console.log("Partez !");

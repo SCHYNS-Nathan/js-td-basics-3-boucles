@@ -15,4 +15,10 @@
 EXEMPLE 3 : 
 - Affichez les nombres pairs entre 0 et 20
 */
-
+let iNombrePair = 0 ;
+console.log("Voici les nombres pairs entre 0 et 20 :")
+while (iNombrePair <= 20) {
+    console.log(iNombrePair);
+    iNombrePair += 2;
+}
+console.log("C'est tout !")
